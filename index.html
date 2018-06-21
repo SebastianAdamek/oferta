@@ -17,6 +17,18 @@
     .align-center {
       text-align: center;
     }
+    
+    .efekty {
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+    .efekty img{
+      transition: 1s all linear;
+    }
+    
+    .efekty:hover img {
+      transform: scale(1.2);
+    }
   </style>
 </head>
 
@@ -32,17 +44,17 @@
   <div class="row margin-on align-center">
       <div class="col-md-4 margin-on">
        <div style="align-content: space-between; display: flex;">
-        <img src="..." class="float-left mx-auto mx-auto" alt="..." style="display: block; margin:auto; width: 320px; height: 200px; background: red;">
+        <img src="images.jpg" class="float-left mx-auto mx-auto" alt="..." style="display: block; margin:auto; width: 320px; height: 200px; background: red;">
        </div>
      </div>   
     <div class="col-md-4 margin-on">
-       <div style="align-content: space-between; display: flex;">
-        <img src="..." class="float-left mx-auto mx-auto" alt="..." style="display: block; margin:auto; width: 320px; height: 200px; background: red;">
+       <div class="efekty"style="align-content: space-between; display: flex;">
+        <img src="pobrane.jpg" class="float-left mx-auto mx-auto" alt="..." style="display: block; margin:auto; width: 320px; height: 200px; background: red;">
        </div>
      </div> 
     <div class="col-md-4 margin-on">
-       <div style="align-content: space-between; display: flex;">
-        <img src="..." class="float-left mx-auto mx-auto" alt="..." style="display: block; margin:auto; width: 320px; height: 200px; background: red;">
+       <div class="efekty" style="align-content: space-between; display: flex;">
+        <img src="images.jpg" class="float-left mx-auto mx-auto" alt="..." style="display: block; margin:auto; width: 320px; height: 200px; background: red;">
        </div>
      </div>
   </div>
